@@ -40,7 +40,7 @@ pipeline {
 
         stage('Docker Deploy') {
             steps {
-                sh 'docker run -d -p 6060:8080 --name Reddy ammulu'
+                sh 'docker run -d -p 2005:8080 --name Reddy ammulu'
             }
         }
     }
