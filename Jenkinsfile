@@ -18,8 +18,8 @@ pipeline {
         stage('Stop & Remove Old Container') {
             steps {
                 sh '''
-                docker stop Rahul || true
-                docker rm Rahul || true
+                docker stop Reddy || true
+                docker rm Redy || true
                 '''
             }
         }
