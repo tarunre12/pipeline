@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh '''
                 docker stop Reddy || true
-                docker rm Redy || true
+                docker rm Reddy || true
                 '''
             }
         }
